@@ -18,3 +18,5 @@ window.onmousemove = e => {
 
     track.style.transform = `translate(${percentage}%, -50%)`;
 }
+
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
