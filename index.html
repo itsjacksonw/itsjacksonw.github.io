@@ -1,10 +1,38 @@
 <!DOCTYPE html>
+
+<script>
+
+    const track = document.getElementById("image-track");
+
+    window.onmousedown = e => {
+        track.dataset.mouseDownAt = e.clientX;
+    }
+
+    window.onmouseup = () => {
+        track.dataset.mouseDownAt = "0";
+    }
+
+    window.onmousemove = e => {
+        if (track.dataset.mouseDownAt == "0") return;
+
+        const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
+            maxDelta = window.innerWidth / 2;
+
+        const percentage = (mouseDelta / maxDelta) * -100;
+
+        track.style.transform = `translate(${percentage}%, -50%)`;
+    }
+</script>
+
 <html class="no-js" lang="en">
 
 <head>
     <link href="/css/style.css" rel="stylesheet">
     <script src="/js/script.js"></script>
 </head>
+
+
+
 <body>
 
     <div id="image-track" data-mouse-down-at="0">
@@ -18,3 +46,4 @@
 
 </body>
 </html>
+
