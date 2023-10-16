@@ -16,5 +16,5 @@ window.onmousemove = e => {
 
     const percentage = (mouseDelta / maxDelta) * -100;
 
-    track.style.transform = 'translate(${percentage}%, -50%)';
+    track.style.transform = `translate(${percentage}%, -50%)`;
 }
