@@ -22,31 +22,45 @@ body {
     top: 50%;
     transform: translate(0%, -50%);
     user-select: none;
+    pointer-events: none;
 }
 
 .header {
     background-color: steelblue;
-    height: 17vh;
+    height: 23vh;
     width: 100vw;
     margin: 0rem;
     text-align: center;
     overflow: hidden;
+    user-select: none;
 }
 
 h1 {
-    line-height: 0.6;
-    color: rgb(20, 20, 20);
-    font-size: 50px;
+    line-height: 0vh;
+    color: black;
+    font-size: 7vh;
     font-style: normal;
     font-weight: bold;
     font-family: Corbel;
+    padding-bottom: 1vh;
 }
 
 h2 {
-    line-height: 0.6;
-    color: rgb(20, 20, 20);
-    font-size: 40px;
+    line-height: 1vh;
+    color: black;
+    font-size: 6vh;
     font-style: normal;
     font-weight: normal;
     font-family: Corbel;
+}
+
+.topic {
+    line-height: 0vh;
+    color: black;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Corbel;
+    text-decoration: underline;
+    padding: 1vw;
 }
