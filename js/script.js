@@ -15,7 +15,7 @@ const handleOnMove = e => {
 
     const percentage = (mouseDelta / maxDelta) * -100,
         nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage,
-        nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
+        nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -80);
 
     track.dataset.percentage = nextPercentage;
 
@@ -45,3 +45,7 @@ window.onmousemove = e => handleOnMove(e);
 window.ontouchmove = e => handleOnMove(e.touches[0]);
 
 window.ondragstart = function () { return false; } 
+
+function clickMe() {
+    alert('Clicked!');
+}

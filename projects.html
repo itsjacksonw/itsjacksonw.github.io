@@ -5,27 +5,84 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
     <div class="header">
         <h1>Jackson Westbrook</h1>
-        <h2>Game Development Projec</h2>
+        <h2>Game Development</h2>
         <nav>
             <a href="./index.html" class="topic">Home</a>
-            <a href="./projects.html" class="topic">Projects</a>
+            <a href="./projects.html" class="current">Projects</a>
             <a href="./resume.html" class="topic">Resume</a>
             <a href="./about.html" class="topic">About Me</a>
         </nav>
-        
+    </div>
+    
+    <div class="projectspage">
+        <a href="#ghostcafe">
+            <img class="rightarrow2" img src="images/other/rightarrow.png" draggable="false" />
+        </a>
+
+        <p class="projecttext-c">
+            Current Projects
+        </p>
+        <p class="projecttext-h">
+            C++ Game Engine
+        </p>
+        <img class="projectimage1" img src="images/other/gameengine.png" draggable="false" />
+        </p>
+        <p class="projecttext">
+            I am creating a 2D game engine using C++ as a semester long project for a game engines course at NCSU.
+            Allows the creation of 2D platformer games using SFML libraries for displaying visuals.
+            Worked with 0mq to add multiplayer capabilities to the game engine using a server and clients.
+        </p>
+
+        <p class="projecttext-h2">
+            Foraging Friends
+        </p>
+        <img class="projectimage2" img src="images/other/foragingfriends.png" draggable="false" />
+        </p>
+        <p class="projecttext2">
+            I am working with 10 other NCSU students to create a game using Unreal Engine. I am a programmer for the game.
+            The goal is to have the game playable by the end of the year!
+        </p>
+
     </div>
 
-    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-        <img class="image" src="images/apawcolypse.png" draggable="false" />
-        <img class="image" src="images/dark.png" draggable="false" />
-        <img class="image" src="images/ghostcafe.png" draggable="false" />
-        <img class="image" src="images/ninjadog.png" draggable="false" />
-        <img class="image" src="images/slimeplatformer.png" draggable="false" />
+
+    <div id="ghostcafe">
+        <a href="./index.html" class="back">Home</a>
+        <a href="./projects.html">
+            <img class="leftarrow" img src="images/other/leftarrow.png" draggable="false" />
+        </a>
+        <a href="#apawcolypse">
+            <img class="rightarrow" img src="images/other/rightarrow.png" draggable="false" />
+        </a>
+
+        <p class="projecttitle">
+            Ghost Cafe
+        </p>
+        <img class="ghostcafepicture" img src="images/projects/ghostcafe.png" draggable="false" />
+        <iframe frameborder="0" src="https://itch.io/embed/1773377?linkback=true" width="552" height="167"><a href="https://nyela.itch.io/ghost-cafe">Ghost Cafe by Nyela, itsjackson, EnigmaticCactus, Deiji-hime, Kgsanderson93, Na_River</a></iframe>
+
+        <p class="ghosttext">
+            Created a fall themed game about serving ghosts in a cafe! Cooperated in a team of 6 to develop a fall themed ghost café game. 
+            I created the player mechanics, and the game manager by combining the different parts made by the other developers and artists. This
+            game was creating in Unity.
+        </p>
+
     </div>
 
+    <div id="apawcolypse">
+        <a href="./index.html" class="back">Home</a>
+        <a href="#ghostcafe">
+            <img class="leftarrow" img src="images/other/leftarrow.png" draggable="false" />
+        </a>
+        <a href="#apawcolypse">
+            <img class="rightarrow" img src="images/other/rightarrow.png" draggable="false" />
+        </a>
+        <p>
+            Hi again
+        </p>
+    </div>
     <script src="js/script.js" type="text/JavaScript"></script>
 </body>
 </html>
