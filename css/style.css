@@ -21,6 +21,16 @@ body {
     
 }
 
+.doublearrow {
+    width: 25vmin;
+    height: 10vmin;
+    object-fit: cover;
+    user-select: none;
+    pointer-events: none;
+    margin-left: 43vw;
+    margin-top: -0.5vh;
+}
+
 #center {
     margin: auto;
     width: 50%;
@@ -41,7 +51,7 @@ img:hover {
     display: flex;
     gap: 4vmin;
     position: absolute;
-    left: 40%;
+    left: 35%;
     top: 38%;
     transform: translate(0%, -50%);
     user-select: none;
@@ -194,11 +204,52 @@ p {
     height: 100%;
 }
 
-#apawcolypse {
+
+#slimeplatformer {
     position: absolute;
     top: 0%;
     width: 100%;
     left: 200%;
+    height: 100%;
+}
+
+#apawcolypse {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 300%;
+    height: 100%;
+}
+
+#dark {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 400%;
+    height: 100%;
+}
+
+#ninjadog {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 500%;
+    height: 100%;
+}
+
+#boxedin {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 600%;
+    height: 100%;
+}
+
+#more {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 700%;
     height: 100%;
 }
 
@@ -351,6 +402,38 @@ html{
     margin-right: 5vw;
 }
 
+.videopicture {
+    height: 60vh;
+    width: 90vh;
+    object-fit: cover;
+    object-position: 100% center;
+    user-select: none;
+    margin-top: 10vh;
+    margin-right: 5vw;
+}
+
+.apawcalypsepicture {
+    height: 60vh;
+    width: 60vh;
+    object-fit: cover;
+    object-position: 100% center;
+    float: right;
+    user-select: none;
+    margin-top: 10vh;
+    margin-right: 5vw;
+}
+
+.darkpicture {
+    height: 50vh;
+    width: 90vh;
+    object-fit: scale-down;
+    object-position: 100% center;
+    float: right;
+    user-select: none;
+    margin-top: 10vh;
+    margin-right: 8vw;
+}
+
 .ghosttext {
     line-height: 3vh;
     color: lightgray;
@@ -362,4 +445,39 @@ html{
     padding: 1vw;
     margin-left: 40vw;
     margin-top: -60vh;
+}
+
+.apawcalypsetext {
+    line-height: 3vh;
+    color: lightgray;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: Verdana;
+    padding: 1vw;
+    margin-left: 55vw;
+    margin-top: -70vh;
+}
+
+.auto-resizable-iframe {
+    max-width: 420px;
+    margin: 0px auto;
+    
+}
+
+.auto-resizable-iframe > div {
+    position: relative;
+    left: -50%;
+    padding-bottom: 75%;
+    height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    float: left;
 }
