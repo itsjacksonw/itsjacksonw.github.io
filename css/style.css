@@ -6,6 +6,18 @@ body {
     overflow: hidden;
 }
 
+main {
+    height: 77vh;
+    width: 300vw;
+    background-color: rgb(20, 20, 20);
+    margin: 0rem;
+    overflow: hidden;
+    position: absolute;
+    top: 23%;
+    align-items: center
+     
+}
+
 #resume_body {
     height: 200vh;
     width: 100vh;
@@ -21,14 +33,28 @@ body {
     
 }
 
-.doublearrow {
+.right-arrow {
     width: 25vmin;
     height: 10vmin;
     object-fit: cover;
     user-select: none;
     pointer-events: none;
     margin-left: 43vw;
-    margin-top: -0.5vh;
+}
+
+.drag {
+    line-height: 2.5vh;
+    color: lightgray;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: Verdana;
+    position: absolute;
+    top: 27vh;
+    left: 41.5vw;
+    user-select: none;
+    pointer-events: none;
 }
 
 #center {
@@ -52,8 +78,8 @@ img:hover {
     gap: 4vmin;
     position: absolute;
     left: 35%;
-    top: 38%;
-    transform: translate(0%, -50%);
+    top: 0%;
+    transform: translate(0%, 23%);
     user-select: none;
     margin-top: 23vh;
 }

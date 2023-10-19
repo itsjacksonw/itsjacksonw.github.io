@@ -1,3 +1,6 @@
+
+
+
 const track = document.getElementById("image-track");
 
 const handleOnDown = e => track.dataset.mouseDownAt = e.clientX;
@@ -20,7 +23,7 @@ const handleOnMove = e => {
     track.dataset.percentage = nextPercentage;
 
     track.animate({
-        transform: `translate(${nextPercentage}%, -50%)`
+        transform: `translate(${nextPercentage}%, 23%)`
     }, { duration: 1200, fill: "forwards" });
 
     for (const image of track.getElementsByClassName("image")) {
@@ -49,3 +52,4 @@ window.ondragstart = function () { return false; }
 function clickMe() {
     alert('Clicked!');
 }
+
