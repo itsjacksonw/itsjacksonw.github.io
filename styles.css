@@ -1,0 +1,414 @@
+/* CSS for your website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ffdf80;
+}
+
+header {
+    background-color: #2A3A77; /* Slightly desaturated dark blue */
+    color: #f0f0f0; /* Softer off-white text color */
+    position: relative; /* Positioning context for the email */
+    padding: 30px 0; /* Padding around content */
+    text-align: center;
+    height: 190px; /* Increased height to accommodate email position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
+
+    header h1 {
+        font-family: 'Baloo', cursive; /* Applied Baloo font */
+        font-size: 4em;
+        font-weight: 700; /* Bold weight for emphasis */
+        margin: 0;
+        line-height: 1.2; /* Increase line height to make the text appear taller */
+        letter-spacing: 0.00em; /* Optionally adjust letter spacing */
+    }
+
+
+    header h2 {
+        font-family: 'Press Start 2P', cursive; /* Applied Press Start 2P font */
+        font-size: 1em;
+        font-weight: normal; /* Use the font's inherent weight */
+        margin: 0;
+        padding: 0;
+        line-height: 3; /* Reduced line height for tighter spacing */
+    }
+
+    header .email {
+        font-family: 'Roboto', sans-serif; /* Applied Roboto font */
+        font-size: 0.8em; /* Smaller size for email */
+        color: #f0f0f0; /* Softer off-white text color */
+        position: absolute;
+        bottom: 10px; /* Adjusted to be at the very bottom of the header */
+        left: 50%;
+        transform: translateX(-50%); /* Center horizontally */
+        margin: 0;
+    }
+
+nav {
+    margin: 0;
+    padding: 1em;
+    background-color: #66B2FF; /* Slightly desaturated light blue */
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Applied Roboto font to nav */
+}
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        padding: 0 15px;
+        font-weight: normal;
+    }
+    nav b {
+        color: yellow;
+        text-decoration: none;
+        padding: 0 15px;
+        font-weight: normal;
+    }
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #2A3A77; /* Slightly desaturated dark blue */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.featured-projects {
+    padding: 40px 0; /* Adds padding to the section */
+    background-color: #2B619B; /* Light background to distinguish the section */
+    text-align: center; /* Center-aligns the content */
+    position: relative;
+}
+
+
+.featured-projects-header {
+    font-family: 'Baloo', cursive; /* Same as h1 font */
+    font-size: 3em; /* Slightly smaller size for topic header */
+    font-weight: 700; /* Bold weight for emphasis */
+    margin: 0px 0; /* Margin to create space around it */
+    text-align: center; /* Centered text */
+    color: #ffdf80; /* You can change this if needed */
+    line-height: 1.2;
+    margin-top: -18px;
+    margin-bottom: -8px;
+}
+
+.games-projects-header {
+    font-family: 'Baloo', cursive; /* Same as h1 font */
+    font-size: 3em; /* Slightly smaller size for topic header */
+    font-weight: 700; /* Bold weight for emphasis */
+    margin: 0px 0; /* Margin to create space around it */
+    text-align: center; /* Centered text */
+    color: #ffdf80; /* You can change this if needed */
+    line-height: 1.2;
+    margin-top: -18px;
+    margin-bottom: 10px;
+}
+
+.about_me_header {
+    font-family: 'Baloo', cursive; /* Same as h1 font */
+    font-size: 3em; /* Slightly smaller size for topic header */
+    font-weight: 700; /* Bold weight for emphasis */
+    margin: 0px 0; /* Margin to create space around it */
+    text-align: center; /* Centered text */
+    color: #ffdf80; /* You can change this if needed */
+    line-height: 1.2;
+    margin-top: -18px;
+    margin-bottom: 10px;
+}
+
+
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    background-image: 
+        url('Images/project1_background_together.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    
+}
+
+.gamesproject {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    background-color: azure;
+}
+
+.gamesproject2 {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    background-color: lightcyan;
+}
+
+.project2 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    background-image: url('Images/project2_background.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.project3 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    background-image: url('Images/project3_background.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f4f4f4; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-me {
+
+}
+
+.project-details {
+    flex: 1;
+    max-width: 40%;
+    padding-right: 20px;
+    text-align: center; /* Center-align text */
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+}
+
+.project-media {
+    flex: 1;
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align text */
+    flex-direction: column;
+}
+
+.project-logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+    image-rendering: pixelated;
+}
+
+.project-name {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+}
+
+.project-subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+}
+
+.project_subheader {
+    font-size: 1.0em;
+    margin: 10px 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.1;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.project-responsibilities,
+.project-tools {
+    font-size: 1.25em;
+    margin: 10px 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+    line-height: 1.25;
+    text-align: left;
+    padding-left: 50px;
+    white-space: nowrap; /* Prevent text wrapping */
+    flex-grow: 1; /* Allow the text container to grow */
+}
+
+.project-description {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+    text-align: left;
+    text-indent: 0em;
+}
+
+.about-me-text {
+    font-size: 1.0em;
+    margin-top: 15px;
+    color: #222; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+    text-align: left;
+    text-indent: 2em;
+}
+
+.video {
+    position: relative; /* Container positioning context */
+    
+}
+
+
+.tools-container {
+    display: flex; /* Aligns the list and the image side by side */
+    align-items: center; /* Vertically centers them */
+    gap: 20px; /* Adds some space between the text and the image */
+}
+
+.tools-icons {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+
+._image {
+    width: 45vw;
+    margin-top: 15px;
+}
+
+.me {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    /*
+    object-position: 100% center;
+    margin-left: 15vw;
+    margin-top: -65vh;
+    margin-bottom: 10vh;
+        */
+    user-select: none;
+    pointer-events: none;
+    position: relative;
+}
+
+
+.icon-track {
+    display: flex;
+    gap: 2vmin;
+    user-select: none;
+    margin-top: 15px;
+}
+
+.icon {
+    width: 10vmin;
+    height: 10vmin;
+    object-fit: cover;
+    object-position: 100% center;
+}
+
+.gproject-name {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+}
+
+.gproject-subtitle {
+    font-size: 1.0em;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+}
+
+.gproject_subheader {
+    font-size: 1.0em;
+    margin: 10px 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', cursive;
+    line-height: 1.1;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.gproject-responsibilities,
+.gproject-tools {
+    font-size: 1.0em;
+    margin: 10px 0;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+    line-height: 1.25;
+    text-align: left;
+    padding-left: 50px;
+    white-space: nowrap; /* Prevent text wrapping */
+    flex-grow: 1; /* Allow the text container to grow */
+}
+
+.gproject-description {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333; /* Slightly off-black */
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+    text-align: left;
+    text-indent: 0em;
+}

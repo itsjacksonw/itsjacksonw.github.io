@@ -1,54 +1,176 @@
 <!DOCTYPE html>
-
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
-    <link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Westbrook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- Added Press Start 2P font -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-
-    <div class="header">
-        <h1>Jackson Westbrook</h1>
-        <h2>Game Development</h2>
-        <nav>
-            <a href="./index.html" class="current">Home</a>
-            <a href="./projects.html" class="topic">Projects</a>
-            <a href="./resume.html" class="topic">Resume</a>
-            <a href="./about.html" class="topic">About Me</a>
-        </nav>
-
-    </div>
-
-    <div class="main">
-        <img class="right-arrow" id="ra" img src="images/other/doublearrow.png" draggable="false" />
-        <p class="drag">
-            hold mouse down and drag
-        </p>
-
-        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-            <a href="./projects.html#ghostcafe">
-                <img class="image" img src="images/projects/ghostcafemain.png" draggable="false" />
-            </a>
-            <a href="./projects.html#slimeplatformer">
-                <img class="image" img src="images/projects/slimeplatformer.png" draggable="false" />
-            </a>
-            <a href="./projects.html#apawcolypse">
-                <img class="image" img src="images/projects/apawcolypsemain.png" draggable="false" />
-            </a>
-            <a href="./projects.html#dark">
-                <img class="image" img src="images/projects/darkmain.PNG" draggable="false" />
-            </a>
-            <a href="./projects.html#ninjadog">
-                <img class="image" img src="images/projects/ninjadogmain.PNG" draggable="false" />
-            </a>
-            <a href="./projects.html#boxedin">
-                <img class="image" img src="images/projects/boxedinmain.PNG" draggable="false" />
-            </a>
-
+    <header>
+        <div class="header-content">
+            <h1>JACKSON WESTBROOK</h1> <!-- Changed to uppercase -->
+            <h2>Software & Games Programmer</h2>
+            <p class="email">jacksonwestbrook19@outlook.com</p>
         </div>
-    </div>
+    </header>
+    <nav>
+        <b href="./index.html">Home</b>
+        <a href="./games.html">Games Projects</a>
+        <a href="./software.html">Software Projects</a>
+        <a href="./about.html">About Me</a>
+        <a href="./resume.html">Resume</a>
+    </nav>
 
-    <script src="js/script.js" type="text/JavaScript">
-    </script>
+    <section id="projects" class="featured-projects">
+        <h2 class="featured-projects-header">FEATURED PROJECTS</h2>
+
+        <div class="project" id="project1">
+            <div class="project-content">
+                <div class="project-details">
+                    <img src="Images/train_gif.gif" alt="Project 1 Logo" class="project-logo">
+                    <h3 class="project-name">Trainyard Debugger</h3>
+                    <h4 class="project-subtitle">Senior Design Project</h4>
+                    <p class="project_subheader">Responsibilities:</p>
+                    <p class="project-responsibilities">
+                        <b>- Led </b> weekly meetings with sponsor <b>Katabasis</b><br>
+                        <b>- Managed </b> the codebase as the DevOps<br>
+                        <b>- Modified </b> an existing API to fit our needs<br>
+                        <b>- Designed </b> gameplay mechanics in a team<br>
+                        <b>- Programmed </b> in the Unity Game Engine<br>
+
+                    </p>
+                    <div class="project-details">
+                        <!-- Existing project details -->
+                        <p class="project_subheader">Tools:</p>
+                        <div class="tools-container">
+                            <p class="project-tools">
+                                - Unity<br>
+                                - Visual Studio<br>
+                                - GitHub<br>
+                                - Trello<br>
+                                - Slack<br>
+                            </p>
+                            <img src="Images/logos.png" alt="Tools Used" class="tools-icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-media">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0XD5KWfFySo?si=0mu7SBctPhjEPYbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <p class="project-description">
+                        <b>Trainyard Debugger</b> is an educational block-based programming game
+                        where the player must debug code blocks in order to complete train based puzzles. This project, which is currently in development,
+                        will be completed throughout a semester long journey with the sponsers Katabasis. Given a set of code blocks, the player must make changes
+                        to allow the trains to complete their journies successfully, while learning the basics of programming in the process.
+                        <i>Project is property of Katabasis.</i>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="project2" id="project2">
+            <div class="project-content">
+                <div class="project-details">
+                    <img src="Images/c++.png" alt="Project 1 Logo" class="project-logo">
+                    <h3 class="project-name">C++ Game Engine</h3>
+                    <h4 class="project-subtitle">Create 2D Platformer Games</h4>
+                    <p class="project_subheader">Game Engine Includes:</p>
+                    <p class="project-responsibilities">
+                        <b>-</b> <b>Physics</b> simulated in 2D  <br>
+                        <b>-</b> <b>Game Object</b>  focused structure <br>
+                        <b>-</b> <b>Scriptable</b> objects using JavaScript <br>
+                        <b>-</b> <b>Timeline</b> that can be manipulated<br>
+                        <b>-</b> <b>Multithreading</b> for performance <br>
+                        <b>-</b> <b>Multiplayer</b> using server connection<br>
+
+                    </p>
+                    <div class="project-details">
+                        <!-- Existing project details -->
+                        <p class="project_subheader">Tools:</p>
+                        <div class="tools-container">
+                            <p class="project-tools">
+                                - Visual Studio<br>
+                                - GitHub<br>
+                                - SFML<br>
+                                - ZMQ
+                            </p>
+                            <img src="Images/logos2.png" alt="Tools Used" class="tools-icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-media">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FXoDKqK9NCQ?si=TWwgoRMle-xpC7Xy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <p class="project-description">
+                        <b>C++ Game Engine</b> is a custom game engine system created that utilizes SFML for rendering. The game engine allows a user to create a game using game objects which include shapes, characters, and obstacles. These objects can be modified with JavaScript files. The game engine includes a custom timeline, multithreading, and multiplayer capabilities. This project was completed individually.
+                        Check out the code on <a href="https://github.com/itsjacksonw/CPP-Game-Engine" target="_blank">GITHUB</a></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- project 3 -->
+        <div class="project3" id="project3">
+            <div class="project-content">
+                <div class="project-details">
+                    <img src="Images/project3_logo.png" alt="Project 1 Logo" class="project-logo">
+                    <h3 class="project-name">Crimson Cones</h3>
+                    <h4 class="project-subtitle">3D Souls-like Boss Fight</h4>
+                    <p class="project_subheader">Responsibilities:</p>
+                    <p class="project-responsibilities">
+                        <b>-</b> <b>Developed</b> in Unreal Engine 5<br>
+                        <b>-</b> <b>Designed</b>  an enemy attack pattern <br>
+                        <b>-</b> <b>Animated</b> using Blueprints <br>
+                        <b>-</b> <b>Led</b> the team's design process<br>
+
+                    </p>
+                    <div class="project-details">
+                        <!-- Existing project details -->
+                        <p class="project_subheader">Tools:</p>
+                        <div class="tools-container">
+                            <p class="project-tools">
+                                - Unreal Engine 5<br>
+                                - Visual Studio<br>
+                                - GitHub<br>
+                                - Blender
+                            </p>
+                            <img src="Images/logos3.png" alt="Tools Used" class="tools-icons">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-media">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YJRjhIpJm0U?si=l4bjDjZKwX8abhGP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <p class="project-description">
+                        <b>Crimson Cones</b> is a 3D boss fight created in a group of four using Unreal Engine 5. You play as an elf who must defeat Krampus in order to save Christmas. The player uses a candy cane sword and has the ability to dodge and attack. I created the boss and all the boss's attacks.
+                        Download and play the game on <a href="https://itsjackson.itch.io/crimson-cones" target="_blank">Itch.io</a></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat for additional projects -->
+
+    </section>
+
+        <!-- Repeat for additional projects -->
+
+
+        
 </body>
 </html>
-
