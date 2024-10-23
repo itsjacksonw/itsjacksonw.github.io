@@ -405,10 +405,10 @@ footer {
 }
 
 .gproject-description {
-    font-size: 1.2em;
-    margin-top: 20px;
+    font-size: 0.9em;
+    margin-top: 10px;
     color: #333; /* Slightly off-black */
     font-family: 'Roboto', sans-serif; /* Apply Roboto font */
     text-align: left;
-    text-indent: 0em;
+    text-indent: 1em;
 }
