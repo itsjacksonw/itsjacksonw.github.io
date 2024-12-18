@@ -429,3 +429,14 @@ footer {
     pointer-events: none;
     position: relative;
 }
+
+.resume-section {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.resume-section h3 {
+	font-family: Roboto, sans-serif;
+	color: #1D2C61; /* Matches your preferred header color */
+	margin-bottom: 10px;
+}
