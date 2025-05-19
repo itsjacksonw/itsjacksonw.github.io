@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Projects\\Website\\itsjacksonw.github.io\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\Website\\itsjacksonw.github.io\\games.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:games.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\Website\\itsjacksonw.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "games.html",
+              "DocumentMoniker": "C:\\Projects\\Website\\itsjacksonw.github.io\\games.html",
+              "RelativeDocumentMoniker": "games.html",
+              "ToolTip": "C:\\Projects\\Website\\itsjacksonw.github.io\\games.html",
+              "RelativeToolTip": "games.html",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-16T16:53:06.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Projects\\Website\\itsjacksonw.github.io\\styles.css",
               "RelativeDocumentMoniker": "styles.css",
@@ -30,12 +47,11 @@
               "RelativeToolTip": "styles.css",
               "ViewState": "AgIAAJkAAAAAAAAAAAAAAMwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-15T19:28:30.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:28:30.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Projects\\Website\\itsjacksonw.github.io\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -43,8 +59,7 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwGMAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-15T15:58:00.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T15:58:00.626Z"
             }
           ]
         }
